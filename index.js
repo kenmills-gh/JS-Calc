@@ -25,7 +25,7 @@ function subtraction(a, b) {
   return result;
 }
 
-function multiplcation(a, b) {
+function multiplication(a, b) {
   const result = a * b;
   addToHistory(a, "*", b, result);
   return result;
@@ -69,7 +69,7 @@ function displayHistory() {
 // // Test 2: Performing basic operations
 // console.log("Adding 10 + 5 =", addition(10, 5));
 // console.log("Subtracting 20 - 8 =", subtraction(20, 8));
-// console.log("Multiplying 7 * 6 =", multiplcation(7, 6));
+// console.log("Multiplying 7 * 6 =", multiplication(7, 6));
 // console.log("Dividing 144 / 12 =", division(144, 12));
 
 // // Test 3: Testing the divide by zero edge-case
